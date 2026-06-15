@@ -1702,7 +1702,7 @@ img, input, textarea, button {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
   }
   
   nav a {
