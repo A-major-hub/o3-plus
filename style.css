@@ -97,7 +97,8 @@
     .header_section {
         flex-direction: column; /* Stack logo above links */
         gap: 15px;
-        padding: 15px 4%;
+        padding: 10px;
+        height: auto;
     }
     
     .header_section .image img {
@@ -112,9 +113,17 @@
     
     .nav_links a {
         display: block;
-        padding: 6px 0;
+        padding: 5px 10px;
+          font-size: 14px;
+          
         
     }
+      .links {
+            display:flex;
+            flex-wrap:wrap;
+            justify-content: center;
+            gap:15px;
+      }
 }
 
 
