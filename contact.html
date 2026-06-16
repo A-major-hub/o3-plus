@@ -31,15 +31,19 @@
             <h2>ENTER YOUR DETAILS</h2>
             <form name="information" action="https://formsubmit.co/abraums333@gmail.com" method="POST">
                 <div class="form_row">
-               <input type="text" id="name" placeholder="NAME:" required/>  
-               <input type="email" id="email"  placeholder="EMAIL:" required/>
+               <input type="text" name="name" id="name" placeholder="NAME:" required/>  
+               <input type="email" name="email"  id="email"  placeholder="EMAIL:" required/>
                </div>
                <div class="form_row"> 
-               <input type="subject" id="subject"  placeholder="SUBJECT:" required/>       
-               <textarea id="message"  placeholder="MESSAGE:" required></textarea>
+               <input type="subject"  name="subject" id="subject"  placeholder="SUBJECT:" required/>       
+               <textarea name="message" id="message"  placeholder="MESSAGE:" required></textarea>
                </div>
                <div class="form_row">
-               <input type="date" id="date" placeholder="DATE:" required/>  
+               <input type="date" id="date" placeholder="DATE:" required/> 
+
+                             <!-- Hidden fields for FormSubmit -->
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://a-major-hub.github.io/o3-plus/thankyou.html">
                <button type="submit">SUBMIT NOW.</button>
                </div>
             </form>
